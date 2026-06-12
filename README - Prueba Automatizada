@@ -1,1 +1,10 @@
+*Esta prueba cubre el flujo de login en la aplicación de demostración y valida:
+    - Inicio de sesión exitoso
+    - Error con contraseña incorrecta
+    - Validación de campos obligatorios
 
+*Este proyecto usa el patrón Page Object Model (POM) para separar la lógica de interacción en clases de página.
+    - `BasePage` contiene utilidades comunes como `goto()` y `locator()`.
+    - `LoginPage` representa la página de login, con métodos como `login()` y `expectErrorContains()`.
+    - `InventoryPage` representa la página de inventario, con un método para validar que la navegación fue exitosa (`expectOnInventoryPage()`).
+El objetivo del POM es hacer las pruebas más mantenibles y legibles, agrupando selectores y acciones de cada página en su propia clase.
