@@ -1,1 +1,11 @@
+En este README se redacta cómo se realizó la Prueba Funcional
+
+*Se realizó un tablero en la sección Projects.
+*Se simuló una Historia de Usuario con las Reglas de Negocio, y en base a eso se crearon los casos de prueba.
+    -Se tuvieron en cuenta casos exitosos y un caso límite.
+    -También se creó un reporte de bug.
+*El tablero actualmente está en estado activo. Me pareció importante utilizar esta prueba técnica simulando el día a día de un QA Fullstack.
+*Se creó un bug en base a la ejecución de un caso de prueba, y dicha tarea quedó bloqueada.
+*Quedaron tickets en la columna de QA, dando a entender que falta el control de calidad.
+
 
